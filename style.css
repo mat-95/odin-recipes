@@ -2,9 +2,43 @@
   font-family: Verdana, sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: 'Courier New', Verdana, sans-serif;
   text-align: center;
+}
+
+h3 {
+  text-align: left;
+  margin-left: 24px;
+}
+
+img {
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+div {
+  width: 500px;
+  margin: auto;
+}
+
+.description p {
+  text-align: justify;
+  padding: 0px 32px;
+  font-size: 20px;
+}
+
+.ingredients {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.instructions {
+  line-height: 1.5;
+  font-size: 18px;
 }
 
 .recipes-list {
