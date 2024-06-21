@@ -1,0 +1,17 @@
+* {
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-family: 'Courier New', Verdana, sans-serif;
+  text-align: center;
+}
+
+.recipes-list {
+  display: inline;
+}
+
+.recipes-list li {
+  list-style: none;
+  text-align: center;
+}
